@@ -1,0 +1,443 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #768852;
+     width: 100%;
+}
+
+main {
+     display: flex;
+     flex-direction: column;
+     gap: 45px;
+}
+
+nav {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 31px 115px;
+     box-sizing: border-box;
+     align-items: center;
+}
+
+nav .logo h1 {
+     color: white;
+     font-family: 'Stick No Bills', sans-serif;
+     font-size: 50px;
+}
+
+nav .nav ul {
+     display: flex;
+     flex-direction: row;
+     gap: 81px;
+     list-style-type: none;
+     align-items: center;
+}
+
+nav .nav ul li a {
+     text-decoration: none;
+     color: white;
+}
+
+section {
+     width: 100%;
+     display: flex;
+     gap: 80px;
+     box-sizing: border-box;
+     padding-inline: 40px;
+}
+
+footer {
+     width: 100%;
+     padding-inline: 45px;
+     box-sizing: border-box;
+}
+
+.wrapper-footer {
+     width: 100%;
+     background-color: #ffffffbc;
+     border-radius: 20px 20px 0px 0px;
+     box-sizing: border-box;
+     padding: 60px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.wrapper-footer .nav ul {
+     list-style-type: none;
+}
+
+.wrapper-footer .nav ul li a{
+     text-decoration: none;
+     color: black;
+}
+
+.wrapper-footer .logo{
+     width: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.wrapper {
+     width: 100%;
+     background-color: #ffffffbc;
+     border-radius: 20px;
+     box-sizing: border-box;
+     padding: 60px;
+}
+
+#hero-section {
+     display: flex;
+     flex-direction: row;
+}
+
+.deskripsi {
+     width: 750px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+.deskripsi .deskripsi-1 h3 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     font-size: 32px;
+     color: #627254;
+}
+
+.deskripsi .deskripsi-1 h1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 64px;
+     color: #627254;
+}
+
+.deskripsi .deskripsi-2 {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.deskripsi .deskripsi-2 p {
+     width: 650px;
+     font-size: 24px;
+}
+
+.deskripsi .deskripsi-2 button {
+     padding: 10px 50px;
+     width: 20%;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     font-family: 'Poppins', sans-serif;
+     background-color: #627254;
+     border: none;
+     border-radius: 10px;
+}
+
+.deskripsi .deskripsi-2 button a {
+     text-decoration: none;
+     color: #ffffff;
+}
+
+.gambar {
+     width: 100%;
+}
+
+.gambar .maskot {
+     position: absolute;
+     right: 60px;
+     top: 60px;
+}
+
+#produk-section {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     box-sizing: border-box;
+}
+
+#produk-section .wrapper-produk {
+     width: 100%;
+     background-color: #ffffffbc;
+     border-radius: 50px;
+     box-sizing: border-box;
+     padding: 80px;
+     display: flex;
+     gap: 20px;
+     flex-direction: column;
+     justify-content: center;
+     box-sizing: border-box;
+}
+
+#produk-section .wrapper-produk .heading h3 {
+     font-size: 32px;
+     font-weight: 400;
+     color: #627254;
+}
+
+#produk-section .wrapper-produk .heading h1 {
+     font-size: 50px;
+     color: #627254;
+}
+
+#produk-section .wrapper-produk .container {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     box-sizing: border-box;
+}
+
+#produk-section .wrapper-produk .container .card {
+     width: 350px;
+     display: flex;
+     flex-direction: column;
+     background-color: #627254;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     height: 506px;
+     border-radius: 10px;
+     box-sizing: border-box;
+}
+
+.wrapper-image {
+     width: 100%;
+     height: 300px;
+     border-radius: 20px;
+     background-color: #D9D9D9;
+     box-sizing: border-box;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.wrapper-image img {
+     width: 100%;
+     height: 100%;
+}
+
+.deskripsi-produk {
+     width: 100%;
+     text-align: justify;
+     color: white;
+     font-weight: 200;
+     font-size: 15px;
+}
+
+.btn-beli {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+}
+
+.btn-beli button {
+     box-sizing: border-box;
+     padding: 5px 30px;
+     background-color: #545F4B;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.btn-beli button a {
+     text-decoration: none;
+     color: #ffffff;
+     font-weight: 600;
+     font-size: 20px;
+}
+
+.wrapper-tentang {
+     width: 100%;
+     background-color: #ffffffbc;
+     border-radius: 20px;
+     box-sizing: border-box;
+     padding: 80px;
+     display: flex;
+     gap: 65px;
+     flex-direction: row;
+     justify-content: center;
+     box-sizing: border-box;
+}
+
+.deskripsi-tentang {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 40px;
+}
+
+.wrapper-tentang .deskripsi-tentang .heading-1 h3 {
+     font-size: 32px;
+     font-weight: 400;
+     color: #627254;
+}
+
+.wrapper-tentang .deskripsi-tentang .heading-1 h1 {
+     font-size: 64px;
+     color: #627254;
+}
+
+.wrapper-tentang .deskripsi-tentang .deskripsi-tentang-1 {
+     font-size: 20px;
+     color: #000000;
+}
+
+.wrapper-tentang .deskripsi-tentang .btn {
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 20px;
+}
+
+.wrapper-tentang .deskripsi-tentang .btn button {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 5px 30px;
+     border: none;
+     border-radius: 5px;
+     background-color: #627254;
+}
+
+.wrapper-tentang .deskripsi-tentang .btn .transparent {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 5px 30px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgba(0, 0, 0, 0 );
+}
+
+.wrapper-tentang .deskripsi-tentang .btn .transparent a {
+     text-decoration: none;
+     color: #000000;
+     font-size: 24px;
+}
+
+.wrapper-tentang .deskripsi-tentang .btn button a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 24px;
+}
+
+.wrapper-kontak {
+     width: 100%;
+     background-color: #ffffffbc;
+     border-radius: 20px;
+     box-sizing: border-box;
+     padding: 80px;
+     display: flex;
+     flex-direction: row;
+     gap: 80px;
+}
+
+.wrapper-kontak .deskripsi-kontak {
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     box-sizing: border-box;
+}
+
+.wrapper-kontak .deskripsi-kontak h3 {
+     font-size: 32px;
+     font-weight: 400;
+     color: #627254;
+}
+
+.wrapper-kontak .deskripsi-kontak .heading-contact h1 {
+     font-size: 64px;
+     color: #627254;
+}
+
+.wrapper-kontak .deskripsi-kontak .text-deskripsi {
+     font-size: 24px;
+     color: #000000;
+     font-weight: 300;
+}
+
+.wrapper-kontak .form {
+     width: 100%;
+     box-sizing: border-box;
+}
+
+.wrapper-kontak .form form {
+     width: 100%;
+     box-sizing: border-box;
+}
+
+.wrapper-kontak .form form .row{
+     width: 100%;
+     box-sizing: border-box;
+     display: flex;
+     gap: 40px;
+     flex-direction: row;
+}
+
+.wrapper-kontak .form form .row .form-group {
+     width: 100%;
+     
+}
+
+.wrapper-kontak .form form .row label {
+     width: 100%;
+     display: block;
+     font-size: 20px;
+}
+
+.wrapper-kontak .form form .row input {
+     width: 100%;
+     outline-color: #545F4B;
+     box-sizing: border-box;
+     padding: 15px;
+     border: 1px solid #545F4B;
+     border-radius: 10px;
+     box-shadow: 0px 5px 5px #627254;
+     margin-bottom: 20px;
+     font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-kontak .form form .row textarea {
+     width: 100%;
+     height: 324px;
+     resize: none;
+     box-sizing: border-box;
+     outline-color: #545F4B;
+     padding: 15px;
+     border: 1px solid #545F4B;
+     border-radius: 10px;
+     box-shadow: 0px 5px 5px #627254;
+     font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-kontak .form form .row button {
+     width: 100%;
+     resize: none;
+     margin-top: 20px;
+     box-sizing: border-box;
+     padding: 15px;
+     border-radius: 5px;
+     border: none;
+     background-color: #627254;
+     box-shadow: 0px 5px 5px #545F4B;
+     color: #ffffff;
+     cursor: pointer;
+     font-size: 15px;
+     font-weight: 600;
+}
